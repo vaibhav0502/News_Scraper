@@ -16,10 +16,12 @@ Scraping news from ```inshorts``` websites using Python SeleniumBase.
 
 ## Features:
 - Collect NEWS from [inshorts](https://inshorts.com/en/read)
+
   ![news_sample](https://user-images.githubusercontent.com/42543380/142772408-5b0ea56b-e6b8-4947-900c-34338f9348da.PNG)
 
 - Collect NEWS Heading, Content, Author of different categories like ```World, Sports, Science, Politics etc```
-![category](https://user-images.githubusercontent.com/42543380/142772468-e5331322-5f47-4aa7-964e-273e6ccf96c5.PNG)
+   
+   ![category](https://user-images.githubusercontent.com/42543380/142772468-e5331322-5f47-4aa7-964e-273e6ccf96c5.PNG)
 
 ## Run News Scrapper:
 - Open config.yml
@@ -30,5 +32,9 @@ Scraping news from ```inshorts``` websites using Python SeleniumBase.
 - Run ```pytest test_news_scrapper.py -s --headless```
 - CSV file will have following columns
     - [title, content, author, url, category]
-- CSV files will be stored inside ```dataset``` folder
+
 ![news](https://user-images.githubusercontent.com/42543380/142772456-2e67e998-5b40-4dcd-bc5a-d131a4109877.PNG)
+
+- CSV files will be stored inside ```dataset``` folder
+
+---------
