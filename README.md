@@ -2,12 +2,12 @@
 Scraping news from ```inshorts``` websites using Python SeleniumBase.
 
 ## Setup project environment with virtualenv and pip:
-```
+
 - Install [virtualenv](https://pypi.org/project/pipenv/) using ```pip install --user pipenv```. 
 - Enter virtualenv using ```pipenv shell```
 - Run ```pipenv install -r requirements.txt ```
 - Install ```pip``` dependencies inside the virtualenv : ```pipenv install dep==```
-```
+
 
 ## Install SeleniumBase:
 - [Seleniumbase](https://pypi.org/project/seleniumbase/) for web scraping .
